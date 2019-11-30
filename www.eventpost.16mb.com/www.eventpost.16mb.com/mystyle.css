@@ -1,0 +1,262 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1d2731;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #32Bcc1;
+}
+
+a {
+font-family: acme;
+}
+
+
+div.description{
+padding:15px 10px;
+font-family:acme;
+background-color:#f2f2f2;
+width:65%;
+height: auto;
+border-radius: 15px;
+margin:auto
+}
+
+.top_part{
+margin:0;
+padding:0;
+background-color: #1d2731;
+font-family:acme;
+font-weight:lighter;
+font-size:180%;
+}
+
+
+.active{
+ background-color:  #32Bcc1;
+}
+
+head{
+margin:0;
+padding:0;
+}
+
+html,body{
+margin:0;
+padding:0;
+
+}
+
+
+h1{
+margin:0;
+padding-top:40px;
+padding-bottom:5px;
+color:  #32Bcc1;
+font-size:310%;
+font-weight:lighter;
+margin-left: 3%;
+font-family: acme;
+}
+
+
+@font-face {
+    font-family: acme;
+    src: url(acme.ttf);
+}
+
+
+input {
+width: 75%;
+    padding: 8px 8px;
+    margin-bottom: 15px 0;
+    box-sizing: border-box;
+}
+
+textarea {
+width: 75%;
+    padding: 8px 8px;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+}
+
+*:focus {
+outline: none;
+} 
+
+input[type=text], input[type=email], textarea, input[type=password]{
+    width: 50%;
+    padding: 7px 5px;
+    margin-top: 12px;
+	margin-bottom: 25px;
+    font-size: 100%;
+    box-sizing: border-box;
+    border: 1px solid #000040;
+    border-radius: 2px;
+   -webkit-transition: width 2s ease;
+   -moz-transition: width 2s ease;
+   transition: width 2s ease;
+}
+
+input[type=text]:focus, input[type=email]:focus,textarea:focus,  input[type=password]:focus{
+    border: 2px solid  #32Bcc1;
+	width:100%;
+}
+
+input[type=file]{
+	margin-top: 8px;
+	margin-bottom: 25px;
+}
+
+input[type=tel], input[type=date]{
+    width: 40%;
+    padding: 7px 5px;
+    margin-top: 12px;
+	margin-bottom: 25px;
+    font-size: 100%;
+    box-sizing: border-box;
+    border: 1px solid #000040;
+    border-radius: 2px;
+}
+
+input[type=tel]:focus, input[type=date]:focus {
+	border: 2px solid  #32Bcc1;
+}
+
+
+div.img {
+    border: 4px solid #F59c00;
+}
+
+div.img:hover {
+    border: 4px solid #000040;
+}
+
+div.img img {
+    width: 100%;
+    height: 250px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    color:#000040;
+    background-color: #F59c00;
+font-family:acme;
+}
+div.cuisine {
+    padding-top: 25px;
+    text-align: center;
+    color:#000040;
+    font-size:200%;
+    font-family:acme;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 25%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 50%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.menu{
+margin:auto;
+padding-top:40px;
+padding-bottom:20px;}
+
+.parent{
+    width: 100%;
+    height: 100%;
+  	overflow:hidden;
+	position:relative;
+	margin-top:8%;
+}
+
+.layout{
+    width: calc(100%/3);
+    height: 100%;
+    position:relative;
+	float:left;
+	
+}
+
+
+fieldset { 
+	border:2px dotted  #32Bcc1;
+	padding: 30px;
+	font-family: acme;
+	font-size: 15px;
+}
+
+legend{
+	font-size: 22px;
+	text-align: center;
+	color:  #32Bcc1;
+	padding: 8px;
+	font-family: acme;
+}
+
+input[type=submit]{
+	width: 100%;
+	height: 40px;
+	font-size: 20px;
+	margin: auto;
+	border: 1px solid  #32Bcc1;
+	border-radius: 3px;
+	background-color:  #32Bcc1;
+	color: #ffffff;
+}
+
+
+.flow {
+margin-top: 15%;
+font-family: acme;
+color:  #32Bcc1;
+text-shadow: 1px 1px  #1d2731;
+}
+
+.desc{
+color: #1d2731;
+font-family: acme;
+font-weight: 100;
+}
+
+
+
+
